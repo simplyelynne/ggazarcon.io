@@ -1,0 +1,38 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#header {
+    position: relative;  
+}
+
+#header img {
+    height: 10%;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#header .content {
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header .content h1 {
+    color: #fff;
+    font-size: 300%;
+}
+
+#header .content h5 {
+    color: #fff;
+    font-weight: 300;
+}
+
